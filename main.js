@@ -29,60 +29,60 @@ const setColor = (color_id, selectedStr) => {
   if (color_id == "colors__item-blue") {
     document.getElementById("shoe_blue").classList.add(selectedStr);
     document.getElementById("card_main").classList.add("change-color-animation");
-    document.getElementById('card_main').style.backgroundColor = 'var(--dodger-blue)';
+    document.getElementById('card_main').style.backgroundImage = 'var(--blue)';
     document.querySelector('.container__add-cart').style.backgroundColor = 'var(--dodger-blue)';
     document.querySelector('.sizes__item--selected').style.backgroundColor = 'var(--dodger-blue)';
     document.querySelector('.container__product-new').style.backgroundColor = 'var(--dodger-blue)';
     setTimeout(function() {
-      document.querySelector('.back-banner').style.backgroundColor = 'var(--dodger-blue)';
+      document.querySelector('.back-banner').style.backgroundImage = 'var(--blue)';
       document.getElementById("card_main").classList.remove("change-color-animation");
     }, 1000);
   }
   else if (color_id == "colors__item-red"){
     document.getElementById("shoe_red").classList.add(selectedStr)
     document.getElementById("card_main").classList.add("change-color-animation");
-    document.getElementById("card_main").style.backgroundColor = 'var(--sunset-orange)';
+    document.getElementById("card_main").style.backgroundImage = 'var(--red)';
     document.querySelector('.container__add-cart').style.backgroundColor = 'var(--sunset-orange)';
     document.querySelector('.sizes__item--selected').style.backgroundColor = 'var(--sunset-orange)';
     document.querySelector('.container__product-new').style.backgroundColor = 'var(--sunset-orange)';
     setTimeout(function() {
-      document.querySelector('.back-banner').style.backgroundColor = 'var(--sunset-orange)';
+      document.querySelector('.back-banner').style.backgroundImage = 'var(--red)';  
       document.getElementById("card_main").classList.remove("change-color-animation");
     }, 1000);   
   }
   else if (color_id == "colors__item-green"){
     document.getElementById("shoe_green").classList.add(selectedStr)
     document.getElementById("card_main").classList.add("change-color-animation");
-    document.getElementById("card_main").style.backgroundColor = 'var(--jungle-green)';
+    document.getElementById("card_main").style.backgroundImage = 'var(--green)';
     document.querySelector('.container__add-cart').style.backgroundColor = 'var(--jungle-green)';
     document.querySelector('.sizes__item--selected').style.backgroundColor = 'var(--jungle-green)';
     document.querySelector('.container__product-new').style.backgroundColor = 'var(--jungle-green)';
     setTimeout(function() {
-      document.querySelector('.back-banner').style.backgroundColor = 'var(--jungle-green)';
+      document.querySelector('.back-banner').style.backgroundImage = 'var(--green)';
       document.getElementById("card_main").classList.remove("change-color-animation");
     }, 1000);  
   }
   else if (color_id == "colors__item-black"){
     document.getElementById("shoe_black").classList.add(selectedStr)
     document.getElementById("card_main").classList.add("change-color-animation");
-    document.getElementById("card_main").style.backgroundColor = 'var(--black)';
+    document.getElementById("card_main").style.backgroundImage = 'var(--black2)';
     document.querySelector('.container__add-cart').style.backgroundColor = 'var(--black)';
     document.querySelector('.sizes__item--selected').style.backgroundColor = 'var(--black)';
     document.querySelector('.container__product-new').style.backgroundColor = 'var(--black)';
     setTimeout(function() {
-      document.querySelector('.back-banner').style.backgroundColor = 'var(--black)';
+      document.querySelector('.back-banner').style.backgroundImage = 'var(--black2)';
       document.getElementById("card_main").classList.remove("change-color-animation");
     }, 1000);  
   }
   else if (color_id == "colors__item-orange"){
     document.getElementById("shoe_orange").classList.add(selectedStr)
     document.getElementById("card_main").classList.add("change-color-animation");
-    document.getElementById("card_main").style.backgroundColor = 'var(--flush-orange)';
+    document.getElementById("card_main").style.backgroundImage = 'var(--orange)';
     document.querySelector('.container__add-cart').style.backgroundColor = 'var(--flush-orange)';
     document.querySelector('.sizes__item--selected').style.backgroundColor = 'var(--flush-orange)';
     document.querySelector('.container__product-new').style.backgroundColor = 'var(--flush-orange)';
     setTimeout(function() {
-      document.querySelector('.back-banner').style.backgroundColor = 'var(--flush-orange)';
+      document.querySelector('.back-banner').style.backgroundImage = 'var(--orange)';
       document.getElementById("card_main").classList.remove("change-color-animation");
     }, 1000);   
   }  

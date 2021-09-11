@@ -15,6 +15,11 @@
     --mine-shaft: #3A3A3A;
     --alto: #DADADA;
 
+    --blue: linear-gradient(45deg,#0136af,#22abfa);
+    --red: linear-gradient(45deg,#d62926,#ee625f);
+    --green: linear-gradient(45deg,#11998e,#1ce669);
+    --orange:linear-gradient(45deg,#fc4a1a,#f7b733);
+    --black2:linear-gradient(45deg,#111,#666);
 }
 @keyframes changeColorAnimation {
     from {
@@ -231,7 +236,7 @@
     animation: changeColor 1.5s; 
 }
 .color__green {
-    background-color: var(--jungle-green);
+    background-image: var(--green);
 }
 @media screen and (min-width: 500px) {
 
