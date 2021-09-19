@@ -2,15 +2,12 @@
     --black: #000;
     --flush-orange: #ff7600;
     --harlequin: #36ff00;
-    --tulip-tree: #e8a83f;
     --white: #fff;
     --dodger-blue: #2175F5;
     --sunset-orange: #F84848;
     --jungle-green: #29B864;
     --orange: #FF5521;
-    --tundora: #444444;
     --gallery: #EFEFEF;
-    --white: #FFFFFF;
     --emperor: #555555;
     --mine-shaft: #3A3A3A;
     --alto: #DADADA;
@@ -29,7 +26,7 @@
       width: 100%;
     }
 }
-@keyframes jumping {
+@keyframes floating {
     from {
       transform: translateY(0) rotate(-20deg);
     }
@@ -81,7 +78,7 @@
     transform: rotate(355deg);
     display: none;
     position: fixed;
-    animation: jumping 1s ease 0s infinite alternate-reverse;
+    animation: floating 1s ease 0s infinite alternate-reverse;
 }
 .card__shoe--selected{
     display: block;
@@ -211,9 +208,30 @@
     background-color: var(--alto);
     cursor: pointer;
 }
-.sizes__item--selected {
+/* .sizes__item--selected {
     color: var(--white);
     background-color: var(--jungle-green);
+} */
+.sizes__item--selected--blue{
+    color: var(--white);
+    background-color: var(--dodger-blue);
+}
+.sizes__item--selected--red{
+    color: var(--white);
+    background-color:  var(--sunset-orange);
+   
+}
+.sizes__item--selected--green{
+    color: var(--white);
+    background-color: var(--jungle-green);
+}
+.sizes__item--selected--orange{
+    color: var(--white);
+    background-color:  var(--flush-orange);
+}
+.sizes__item--selected--black{
+    color: var(--white);
+    background-color: var(--black);
 }
 
 .container__add-cart{
